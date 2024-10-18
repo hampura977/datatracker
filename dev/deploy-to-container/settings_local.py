@@ -81,6 +81,7 @@ MEETECHO_API_CONFIG = {
   "client_id": "this-is-the-meetecho-client-id",
   "client_secret": "this-is-the-meetecho-client-secret",
   "request_timeout": 3.01,  # python-requests doc recommend slightly > a multiple of 3 seconds
+  "slides_notify_time": 43200,  # for testing, send slides notifications 30 days in advance
 }
 
 # OIDC configuration
