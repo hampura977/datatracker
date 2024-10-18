@@ -76,6 +76,12 @@ APP_API_TOKENS = {
   "ietf.api.views.ingest_email_test": ["ingestion-test-token"]
 }
 
+MEETECHO_API_CONFIG = {
+  "api_base": "https://meetings.conf.meetecho.com/api/v1/testing/",
+  "client_id": "this-is-the-meetecho-client-id",
+  "client_secret": "this-is-the-meetecho-client-secret",
+  "request_timeout": 3.01,  # python-requests doc recommend slightly > a multiple of 3 seconds
+}
 
 # OIDC configuration
 SITE_URL = 'https://__HOSTNAME__'
